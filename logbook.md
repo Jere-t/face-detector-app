@@ -12,7 +12,9 @@ This app has been created by following this [*link*](https://youtu.be/XIrOM9oP3p
 ---
 ## Steps
 1.  `pip install python-opencv`  or `pip install python-opencv-headless`
-2.  Create first python file
+2.  Create first python file.
+3.  We will use the a haarcascade model from this [link](https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml). Downloaded and put in the data/model folder.
+4.  
 ---
 
 ## GIT Commit 
