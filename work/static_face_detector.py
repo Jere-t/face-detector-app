@@ -1,14 +1,12 @@
 import cv2
 from random import randrange
 
-dir_file_path = '/Users/jmaret/com/pictet/python/face-detector-app/'
-
 # load some pre-trained data on face frontals from opencv (haar cascade algorithm)
-trained_face_data = cv2.CascadeClassifier(dir_file_path+'data/model/haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('data/model/haarcascade_frontalface_default.xml')
 
 # choose an image to detectt
 #img = cv2.imread(dir_file_path+'data/img/face1.png')
-img = cv2.imread(dir_file_path+'data/img/multi-face1.png')
+img = cv2.imread('data/img/image.png')
 
 # Must convert img in grayscale
 grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

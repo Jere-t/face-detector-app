@@ -1,9 +1,7 @@
 import cv2
 
-dir_file_path = '/Users/jmaret/com/pictet/python/face-detector-app/'
-
 # load some pre-trained data on face frontals from opencv (haar cascade algorithm)
-trained_face_data = cv2.CascadeClassifier(dir_file_path+'data/model/haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('data/model/haarcascade_frontalface_default.xml')
 
 # capture video from webcam if you type '0'
 webcam = cv2.VideoCapture(0)
